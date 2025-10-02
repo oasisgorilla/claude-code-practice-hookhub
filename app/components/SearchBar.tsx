@@ -28,7 +28,7 @@ export default function SearchBar({ searchTerm, onSearchChange }: SearchBarProps
           value={searchTerm}
           onChange={(e) => onSearchChange(e.target.value)}
           placeholder="Search hooks by name, description, or author..."
-          className="block w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all placeholder:text-gray-500 placeholder:font-medium"
+          className="block w-full pl-12 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-transparent outline-none transition-all placeholder:text-gray-500 placeholder:font-medium text-gray-900 font-medium"
         />
         {searchTerm && (
           <button
