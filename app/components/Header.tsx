@@ -1,24 +1,19 @@
 export default function Header() {
   return (
-    <header className="bg-white border-b border-gray-200">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <header className="bg-white border-b border-gray-100">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex items-center justify-between">
-          <div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">
-              Hook<span className="text-indigo-600">Hub</span>
-            </h1>
-            <p className="text-gray-600 text-lg">
-              Discover awesome Claude Code hooks
-            </p>
-          </div>
+          <h1 className="text-3xl font-bold text-gray-900">
+            Hook<span className="text-indigo-600">Hub</span>
+          </h1>
           <a
             href="https://github.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-gray-900 text-white hover:bg-gray-800 transition-colors"
+            className="inline-flex items-center gap-2 px-4 py-2 text-sm rounded-lg bg-gray-900 text-white hover:bg-gray-800 transition-colors"
           >
             <svg
-              className="w-5 h-5"
+              className="w-4 h-4"
               fill="currentColor"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
